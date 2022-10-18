@@ -1,0 +1,18 @@
+.app-utils {
+    position: sticky;
+    padding: 3px 5px;
+
+    display: flex;
+}
+
+.app-utils__search {
+    flex-basis: 80%;
+}
+
+.app-utils__order {
+    flex-basis: 10%;
+}
+
+.app-utils__account {
+    flex-basis: 10%;
+}
