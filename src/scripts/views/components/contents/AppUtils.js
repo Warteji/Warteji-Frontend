@@ -6,18 +6,18 @@ const AppUtils = ({ value, onChange, }) => {
             <div className="app-utils__search">
                 <input
                     type="text"
-                    placeholder="Cari layanan, cari makanan dan minuman"
+                    placeholder="Pengen makan apa hari ini"
                     value={value}
                     onChange={onChange} />
             </div>
             <div className="app-utils__order">
                 <a href="#">
-                    <i className="material-icons">search</i>
+                    <i className="material-icons">shopping_cart</i>
                 </a>
             </div>
             <div className="app-utils__account">
                 <a href="#">
-                    <i className="material-icons">search</i>
+                    <i className="material-icons">account_circle</i>
                 </a>
             </div>
         </div>

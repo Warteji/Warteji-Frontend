@@ -1,18 +1,82 @@
 .app-utils {
     position: sticky;
-    padding: 3px 5px;
+    padding: 12px 4px 8px 10px;
 
     display: flex;
+    background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
 }
 
 .app-utils__search {
     flex-basis: 80%;
+    margin-right: 6px;
+}
+
+.app-utils__search input {
+    width: 100%;
+    padding: 13px;
+	border-radius: 20px;
+	border: none;
+    font-size: 14px;
 }
 
 .app-utils__order {
     flex-basis: 10%;
+    
+    text-align: right;
+    padding: 3px 0;
 }
 
 .app-utils__account {
     flex-basis: 10%;
+
+    text-align: right;
+    padding: 3px 0;
+}
+
+.app-utils a {
+    padding: 2px 5px;
+}
+
+.app-utils i {
+    font-size: 38px;
+    color: white;
+}
+
+
+/* section option */
+
+.section-option {
+    padding: 5px;
+}
+
+.option-list {
+    display: flex;
+
+    padding: 10px;
+}
+
+.option-item {
+    flex-grow: 1;
+
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.option-item__header {
+    flex-basis: 90%!important;
+    background-color: #f7f7f7;
+}
+
+.option-item__header i {
+    font-size: 50px;
+    margin: 10px 5px;
+}
+
+.option-item__body {
+    flex-basis: 10%!important;
 }
