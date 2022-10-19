@@ -1,3 +1,54 @@
+/* NavBar */
+
+nav {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    flex-basis: 25%;
+    text-align: center;
+    padding: 7px 5px 4px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav p {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+nav ul i {
+    font-size: 25px!important;
+    color: rgb(102, 102, 102);
+}
+
+/* nav a:active {
+    background: transparent;
+}
+
+nav i:active {
+    color: transparent;
+} */
+
+nav i.active {
+    color: green;
+}
+
+
+/* AppUtils */
+
 .app-utils {
     position: sticky;
     padding: 12px 4px 8px 10px;

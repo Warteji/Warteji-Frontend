@@ -11,14 +11,10 @@ const AppUtils = ({ value, onChange, }) => {
                     onChange={onChange} />
             </div>
             <div className="app-utils__order">
-                <a href="#">
                     <i className="material-icons">shopping_cart</i>
-                </a>
             </div>
             <div className="app-utils__account">
-                <a href="#">
                     <i className="material-icons">account_circle</i>
-                </a>
             </div>
         </div>
     );
