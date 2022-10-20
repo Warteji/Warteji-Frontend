@@ -6,13 +6,23 @@ const SectionOption = () => {
     return (
         <div className="section-option">
             <AppUtils />
-            <OptionList />
-            <OptionList />
-            <OptionList />
-            <OptionList />
-            <OptionList />
-            <OptionList />
-            <OptionList />
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
+            <h1>Home</h1>
         </div>
     );
 }

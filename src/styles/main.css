@@ -4,6 +4,7 @@ nav {
     background-color: white;
     position: fixed;
     bottom: 0;
+    z-index: 1;
     width: 100%;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
 }
@@ -25,14 +26,15 @@ nav a {
 
 nav p {
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
     font-weight: lighter;
 }
 
-nav ul i {
-    font-size: 25px!important;
-    color: rgb(102, 102, 102);
+nav ul span {
+    font-size: 27px!important;
+    color: #9aa3aa;
+    /* color: #d5d7d6; */
 }
 
 /* nav a:active {
@@ -43,26 +45,22 @@ nav i:active {
     color: transparent;
 } */
 
-nav i.active {
+nav span.active {
     color: green;
 }
 
 
 /* AppUtils */
 
-section .app-utils {
-    position: sticky;
-}
-
 .app-utils {
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
     padding: 7px 3px 7px 7px;
     width: 100%;
 
     display: flex;
     /* background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.8); */
+    background: rgba(0, 0, 0, 0.8); */
 }
 
 .app-utils__search {
@@ -72,7 +70,7 @@ section .app-utils {
 
 .app-utils__search input {
     width: 100%;
-    padding: 15px;
+    padding: 15px 25px;
 	border-radius: 20px;
     border: 1px solid;
     border-color: rgba(0, 0, 0, 0.5);
@@ -83,10 +81,9 @@ section .app-utils {
     flex-basis: 10%;
 }
 
-.app-utils i {
+.app-utils span {
     font-size: 50px;
-    text-align: right;
-    color: black;
+    color: #9aa3aa;
 }
 
 
