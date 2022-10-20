@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-html, body, main {
+body, main {
 	height: 100%;
 	width: 100%;
 }
@@ -13,21 +13,37 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
-	background-color: #fafafa;
+	background-color: white;
+	/* background-color: #fafafa; */
 	/* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
 }
 
 header {
-	padding: 3px;
-	text-align: center;
+	padding: 1px;
 	width: 100%;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.8);
 	color: white;
+	text-align: center;
 }
 
+/* .app-bar {
+	display: flex;
+}
+
+.app-bar p {
+	flex-basis: 80%;
+}
+
+.app-bar i {
+	flex-basis: 20%;
+	font-size: 40px;
+	text-align: right;
+	padding: 6px;
+} */
+
 footer {
-	padding: 5px;
+	padding: 7px;
 	text-align: center;
 	width: 100%;
 	background: rgb(0, 0, 0);

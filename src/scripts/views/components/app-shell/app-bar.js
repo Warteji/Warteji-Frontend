@@ -3,9 +3,8 @@ import { html, css, LitElement } from 'lit';
 export class AppBar extends LitElement {
     static styles = css`
         p {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Quicksand', sans-serif;
             font-size: 15px;
-            font-weight: bold;
         }
     `;
 

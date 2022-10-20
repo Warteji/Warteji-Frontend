@@ -7,6 +7,12 @@ const SectionOption = () => {
         <div className="section-option">
             <AppUtils />
             <OptionList />
+            <OptionList />
+            <OptionList />
+            <OptionList />
+            <OptionList />
+            <OptionList />
+            <OptionList />
         </div>
     );
 }
